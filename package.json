@@ -19,6 +19,7 @@
   },
   "scripts": {
     "build": "node build.js",
-    "serve": "http-server ./public"
+    "serve": "http-server ./public",
+    "clean": "rm -rf ./public/*"
   }
 }
