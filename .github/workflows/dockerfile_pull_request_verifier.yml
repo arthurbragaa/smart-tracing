@@ -11,4 +11,5 @@ jobs:
       - name: Build container
         uses: docker/build-action@v1
         with:
+          path: ../../
           repository: zerobaseio/smart-tracing
