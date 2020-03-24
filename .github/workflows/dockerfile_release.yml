@@ -11,6 +11,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           path: ../../.
+          dockerfile: ../../Dockerfile
           repository: zerobaseio/smart-tracing
           tag_with_ref: true
           tag_with_sha: true
