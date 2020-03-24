@@ -10,7 +10,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          path: ../../
+          path: ../../.
           repository: zerobaseio/smart-tracing
           tag_with_ref: true
           tag_with_sha: true
