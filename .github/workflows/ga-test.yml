@@ -1,0 +1,15 @@
+---
+name: Build Dockerfile
+on:
+  pull_request:
+    paths:
+      - ./Dockerfile
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  steps:
+    name: Build container
+    uses: docker/build-action@v1
+    with:
+      repository: zerobaseio/smart-tracing
