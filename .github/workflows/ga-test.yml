@@ -8,8 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-  steps:
-    - name: Build container
-      uses: docker/build-action@v1
-      with:
-        repository: zerobaseio/smart-tracing
+    steps:
+      - name: Build container
+        uses: docker/build-action@v1
+        with:
+          repository: zerobaseio/smart-tracing
